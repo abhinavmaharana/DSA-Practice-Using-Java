@@ -11,6 +11,6 @@ public class SolutionTwo {
     int i2 = scan.nextInt();
     double d2 = scan.nextDouble();
 
-    scan.nextLine();
+//    scan.nextLine();
     String s2 = scan.nextLine();
 }
