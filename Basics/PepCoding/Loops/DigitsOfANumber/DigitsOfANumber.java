@@ -14,9 +14,13 @@ public class DigitsOfANumber {
             nod++;
         }
 
-        int div = (int)Math.pow(10, nod - 1);
-        while(div!= 0){
-            int quotient = n /div;
+        int div = 1;
+        for (int i = 1; i < nod; i++) {
+            div *= 10;
+        }
+
+        while (div != 0) {
+            int quotient = n / div;
             System.out.println(quotient);
             n = n % div;
             div = div / 10;
