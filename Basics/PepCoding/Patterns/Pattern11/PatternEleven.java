@@ -2,7 +2,7 @@ package Basics.PepCoding.Patterns.Pattern11;
 
 import java.util.Scanner;
 
-public class PatternEleven {
+public class  PatternEleven {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
