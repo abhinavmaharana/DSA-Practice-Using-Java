@@ -2,7 +2,7 @@ package Basics.PepCoding.Patterns.Pattern9;
 
 import java.util.Scanner;
 
-public class PatternNine {
+public class  PatternNine {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
